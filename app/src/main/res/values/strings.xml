@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Gestao de Produtos</string>
+
+    <!-- Login Screen -->
+    <string name="smart_waste">Ecoll Truck</string>
+    <string name="gestao_inteligente_coleta">Gestão Inteligente de Coleta</string>
+    <string name="usuario">Usuário</string>
+    <string name="empresa">Empresa</string>
+    <string name="cpf">CPF</string>
+    <string name="hint_cpf">000.000.000-00</string>
+    <string name="senha">Senha</string>
+    <string name="hint_senha">Digite sua senha</string>
+    <string name="esqueceu_senha">Esqueceu a senha?</string>
+    <string name="entrar">Entrar</string>
+    <string name="nao_tem_conta">Não tem uma conta?</string>
+    <string name="cadastro_usuario">Cadastro de Usuário</string>
+    <string name="cadastro_empresa">Cadastro de Empresa</string>
+
+    <!-- User Registration Screen -->
+    <string name="voltar_ao_login">Voltar ao login</string>
+    <string name="criar_conta">Criar Conta</string>
+    <string name="nome_completo">Nome Completo</string>
+    <string name="hint_nome_completo">Digite seu nome completo</string>
+    <string name="email">Email</string>
+    <string name="hint_email">seu@email.com</string>
+    <string name="telefone">Telefone</string>
+    <string name="hint_telefone">(00) 00000-0000</string>
+    <string name="data_nascimento">Data de Nascimento</string>
+    <string name="hint_data_nascimento">dd/mm/aaaa</string>
+    <string name="hint_crie_senha">Crie uma senha</string>
+    <string name="confirmar_senha">Confirmar Senha</string>
+    <string name="hint_confirmar_senha">Confirme sua senha</string>
+
+    <!-- Company Registration Screen -->
+    <string name="gerencie_frota">Gerencie sua frota de coleta</string>
+    <string name="cnpj">CNPJ</string>
+    <string name="hint_cnpj">00.000.000/0000-00</string>
+    <string name="nome_responsavel">Nome do Responsável</string>
+    <string name="hint_nome_responsavel">Nome completo do responsável</string>
+    <string name="hint_email_empresa">empresa@email.com</string>
+    <string name="cidade">Cidade</string>
+    <string name="estado">Estado</string>
+    <string name="cadastrar_empresa">Cadastrar Empresa</string>
+
+    <!-- Main Activity -->
+    <string name="caminhao_num">Caminhão #2301</string>
+    <string name="rota_do_dia">Rota do Dia</string>
+    <string name="zona_norte_setor_residencial">Zona Norte - Setor Residencial</string>
+    <string name="progresso_da_rota">Progresso da Rota</string>
+    <string name="pontos">2/5 pontos</string>
+    <string name="navegacao_ativa">Navegação Ativa</string>
+    <string name="ponto_a">Ponto A</string>
+    <string name="ponto_b">Ponto B</string>
+    <string name="ponto_c">Ponto C</string>
+    <string name="ponto_d">Ponto D</string>
+    <string name="ponto_e">Ponto E</string>
+    <string name="voce_esta_aqui">Você está aqui</string>
+    <string name="concluido">Concluído</string>
+    <string name="pendente">Pendente</string>
+    <string name="atual">Atual</string>
+
+</resources>
