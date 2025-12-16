@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#2E7D32" /> <!-- Cor verde um pouco mais escura para o fundo do item ativo -->
+    <corners android:radius="12dp" />
+</shape>
