@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    app:cardBackgroundColor="@color/dark_gray"
+    app:cardCornerRadius="8dp"
+    app:strokeColor="@color/red"
+    app:strokeWidth="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/iv_alerta_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_warning"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/red" />
+
+        <TextView
+            android:id="@+id/tv_alerta_titulo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Nível Crítico de Combustível"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/tv_alerta_tag"
+            app:layout_constraintStart_toEndOf="@+id/iv_alerta_icon"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_alerta_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_status_inativo"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="4dp"
+            android:text="Crítico"
+            android:textColor="@color/red"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_alerta_descricao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Combustível abaixo de 15%. Reabastecimento urgente necessário."
+            android:textColor="@android:color/darker_gray"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tv_alerta_titulo"
+            app:layout_constraintTop_toBottomOf="@+id/tv_alerta_titulo" />
+
+        <TextView
+            android:id="@+id/tv_alerta_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawableStart="@drawable/ic_truck"
+            android:drawablePadding="8dp"
+            android:text="Caminhão #2305  •  12 min atrás"
+            android:textColor="@android:color/darker_gray"
+            app:drawableTint="@android:color/darker_gray"
+            app:layout_constraintStart_toStartOf="@+id/tv_alerta_descricao"
+            app:layout_constraintTop_toBottomOf="@+id/tv_alerta_descricao" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_ver_detalhes"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Ver Detalhes"
+            android:textColor="@android:color/white"
+            app:layout_constraintStart_toStartOf="@+id/tv_alerta_info"
+            app:layout_constraintTop_toBottomOf="@+id/tv_alerta_info" />
+
+        <Button
+            android:id="@+id/btn_resolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/green_accent"
+            android:text="Resolver"
+            android:textColor="@color/dark_background"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_ver_detalhes"
+            app:layout_constraintStart_toEndOf="@+id/btn_ver_detalhes"
+            app:layout_constraintTop_toTopOf="@+id/btn_ver_detalhes" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
