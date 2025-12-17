@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Gestao de Produtos</string>
+    <string name="app_name">EcollTruck</string>
 
     <!-- Login Screen -->
     <string name="smart_waste">Ecoll Truck</string>
