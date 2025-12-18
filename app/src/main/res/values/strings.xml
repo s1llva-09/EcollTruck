@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">EcollTruck</string>
+    <string name="label_cadastro_caminhao">Cadastro de Caminhão</string>
+    <string name="content_description_voltar">Voltar</string>
+    <string name="hint_modelo">Modelo</string>
+    <string name="hint_placa">Placa</string>
+    <string name="hint_status">Status</string>
+    <string name="hint_capacidade">Capacidade (t)</string>
+    <string name="hint_ano">Ano</string>
+    <string name="label_salvar">Salvar</string>
+
+    <string-array name="status_options">
+        <item>Disponível</item>
+        <item>Em Rota</item>
+    </string-array>
+
+    <string name="smart_waste">Smart Waste</string>
+    <string name="gestao_inteligente_coleta">Gestão Inteligente de Coleta</string>
+    <string name="usuario">Usuário</string>
+    <string name="empresa">Empresa</string>
+    <string name="email">Email</string>
+    <string name="hint_email">seuemail@email.com</string>
+    <string name="senha">Senha</string>
+    <string name="hint_senha">Sua senha</string>
+    <string name="esqueceu_senha">Esqueceu sua senha?</string>
+    <string name="entrar">Entrar</string>
+    <string name="nao_tem_conta">Não tem uma conta?</string>
+    <string name="cadastro_usuario">Cadastro de Usuário</string>
+    <string name="cadastro_empresa">Cadastro de Empresa</string>
+    <string name="caminhao_num">Caminhão Nº 123</string>
+    <string name="rota_do_dia">Rota do Dia</string>
+    <string name="zona_norte_setor_residencial">Zona Norte - Setor Residencial</string>
+    <string name="progresso_da_rota">Progresso da Rota</string>
+    <string name="pontos">Pontos</string>
+    <string name="navegacao_ativa">Navegação Ativa</string>
+
+    <string name="ponto_a">Ponto A</string>
+    <string name="ponto_b">Ponto B</string>
+    <string name="voce_esta_aqui">Você está aqui</string>
+    <string name="ponto_c">Ponto C</string>
+    <string name="ponto_d">Ponto D</string>
+    <string name="concluido">Concluído</string>
+    <string name="pendente">Pendente</string>
+    <string name="atual">Atual</string>
+    <string name="voltar_ao_login">Voltar ao Login</string>
+    <string name="gerencie_frota">Gerencie sua frota</string>
+    <string name="cnpj">CNPJ</string>
+    <string name="hint_cnpj">Seu CNPJ</string>
+    <string name="nome_responsavel">Nome do Responsável</string>
+    <string name="hint_nome_responsavel">Nome do responsável</string>
+    <string name="hint_email_empresa">email@empresa.com</string>
+    <string name="telefone">Telefone</string>
+    <string name="hint_telefone">Seu telefone</string>
+    <string name="cidade">Cidade</string>
+    <string name="estado">Estado</string>
+    <string name="hint_crie_senha">Crie uma senha</string>
+    <string name="confirmar_senha">Confirmar Senha</string>
+    <string name="hint_confirmar_senha">Confirme sua senha</string>
+    <string name="cadastrar_empresa">Cadastrar Empresa</string>
+    <string name="criar_conta">Criar Conta</string>
+    <string name="nome_completo">Nome Completo</string>
+    <string name="hint_nome_completo">Seu nome completo</string>
+    <string name="cpf">CPF</string>
+    <string name="hint_cpf">Seu CPF</string>
+    <string name="data_nascimento">Data de Nascimento</string>
+    <string name="hint_data_nascimento">DD/MM/AAAA</string>
+</resources>

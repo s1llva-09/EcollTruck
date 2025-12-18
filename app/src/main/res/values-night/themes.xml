@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GestaoDeProdutos" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green_accent</item>
+        <item name="colorPrimaryVariant">@color/green_accent</item>
+        <item name="colorOnPrimary">@color/dark_background</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_light</item>
+        <item name="colorSecondaryVariant">@color/blue_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Surface color for components like TextInputLayout -->
+        <item name="colorSurface">@color/dark_background</item>
+        <item name="colorOnSurface">@color/white</item>
+
+        <!-- Enable edge-to-edge display -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

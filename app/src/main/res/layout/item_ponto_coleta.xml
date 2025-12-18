@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corners"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/status_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/ic_map_point_pending" />
+
+    <LinearLayout
+        android:id="@+id/ponto_info_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@id/status_icon"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ponto_nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="Ponto de Coleta Exemplo" />
+
+        <TextView
+            android:id="@+id/ponto_detalhes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            tools:text="5 lixeiras • ~20kg estimado" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ponto_horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ponto_info_layout"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/darker_gray"
+        tools:text="08:15" />
+
+    <Button
+        android:id="@+id/concluir_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ponto_info_layout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:text="Concluir"
+        android:visibility="gone" />
+
+</RelativeLayout>

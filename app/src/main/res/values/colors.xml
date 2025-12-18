@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green_accent">#00FF00</color>
+    <color name="dark_background">#0C1B2A</color>
+    <color name="hint_text">#A0AEC0</color>
+    <color name="blue_light">#4A90E2</color>
+    <color name="progress_bar_background">#3D3D3D</color>
+    <color name="map_point_pending">#A0AEC0</color>
+    <color name="dark_gray">#2D3748</color>
+    <color name="light_gray">#1A202C</color> <!-- Corrigido de #E2E8F0 para um tom escuro -->
+    <color name="yellow_pause">#FBBF24</color>
+    <color name="dark_blue_map">#1A202C</color>
+    <color name="red">#FF0000</color>
+</resources>
